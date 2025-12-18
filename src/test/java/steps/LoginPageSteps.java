@@ -23,7 +23,7 @@ public class LoginPageSteps {
         loginPage.sendTextToPasswordInput(password);
     }
 
-    @When("user click Login button2")
+    @When("user click Login button")
     public void clickLoginButton() {
         loginPage.clickLoginButton();
     }
